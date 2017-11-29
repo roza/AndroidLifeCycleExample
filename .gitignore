@@ -1,9 +1,23 @@
+local.properties
+*.apk
+*.ap_
+*.dex
+*.class
+
+# macos
+.DS_Store
+# Windows
+Thumbs.db
+
+# Android Studio
+
+.idea
 *.iml
 .gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
+.navigation
+output.json
 /build
 /captures
+#NDK
+obj/
 .externalNativeBuild
